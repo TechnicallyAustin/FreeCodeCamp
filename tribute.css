@@ -1,0 +1,73 @@
+body {
+    background-color: #C0BCB5
+
+}
+
+.heading {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+#title {
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    align-content: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.img-div {
+    background-color: #4A6C6F;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    padding: 10px;
+}
+
+.img-caption {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+div[id="tribute-info"] {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+h3 {
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#more-info {
+display: block;
+width: 75%;
+margin: 0 auto;
+background-color: #FFFFFF;
+text-align: center;
+
+
+}
+
+#testimonial {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+
+
