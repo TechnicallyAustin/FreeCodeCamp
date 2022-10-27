@@ -1,0 +1,332 @@
+:root {
+    --nav-bar-color: #171a21;
+    --nav-bar-font-color: ;
+    --main-page-color: ;
+    --media-bg-color: ;
+}
+
+#main-doc {
+        color: #171a21
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0
+}
+
+body, html, #video-section, #main-doc {
+    background-image: url("https://cdn.vox-cdn.com/thumbor/Y63BV2Ds7NeehvyRn_rHUbAYREk=/0x0:1920x1080/1200x800/filters:focal(807x387:1113x693)/cdn.vox-cdn.com/uploads/chorus_image/image/70540889/steam_stats.0.jpg") ;
+    background-color: #cccccc;
+}
+
+#main-doc, html {
+    margin-top: 5%;
+    background-color: #c7d5e0;
+}
+
+#header-img {
+    width: 15%;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+#nav-bar {
+    display: inline-flex;
+    flex-direction: row;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 2;
+    column-count: 2;
+    column-gap: 40%;
+    background-color: #171a21;
+    border-bottom: 5px solid #66c0f4
+;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    /* Margins can vertically center the Nav items. */
+    margin: auto;
+    grid-template-columns: 5;;
+    column-gap: 18%
+}
+
+#nav-bar ul li a:link,
+#nav-bar ul li a:visited,
+#nav-bar ul li a:hover,
+#nav-bar ul li a:active {
+text-decoration: none;
+color: #c7d5e0;
+}
+
+#form-section {
+    padding-bottom: 4%;
+}
+
+
+#email {
+    display: block;
+    justify-content: center space-evenly;
+    align-content: center;
+    text-align: center;
+    width: 18%;
+    min-width: 10%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#submit {
+    display: block;
+    justify-content: center space-evenly;
+    align-content: center;
+    text-align: center;
+    width: 18%;
+    min-width: 12%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    background-color: #66c0f4;
+    border: 4px solid #2a475e;
+    color:#171a21;
+    box-shadow: #171a21;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 20px;
+
+}
+
+#features {
+    display: block;
+    justify-content: center space-evenly;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+    margin-left: 25%;
+    width: 50%;
+    height: auto;
+    padding-bottom: 4%;
+    background-color: #171a21;
+    color: #c7d5e0;
+    border-radius: 20px;
+    border: 10px solid #2a475e;
+    padding: 2%;
+}
+
+#desktop h2, #linux-gaming h2, #portable h2 {
+    padding-bottom: 1%;
+}
+
+#desktop p, #linux-gaming p, #portable p {
+    padding: 2%;
+}
+
+#video-section {
+    display: block;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+}
+
+.bg-video-div {
+    background-color: #171a21;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 2%;
+    border-radius: 20px;
+    border: 10px solid #2a475e;
+    border-radius: 20px;
+}
+
+
+
+
+#model-title, #games-title, #proton-title {
+    display: block;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+    color: #c7d5e0;
+
+
+}
+
+#model-img {
+    display: block;
+    width: auto;
+    min-width: 40%;
+    height: auto;
+    align-content: center;
+    padding: 2%;
+    border: 10px solid #2a475e;
+    border-radius: 20px;
+}
+
+.img-bg #model-img {
+z-index: -1;
+background-color: #171a21;
+height: 20%;
+margin: auto;
+width: 10%;
+padding-bottom: 2%;
+
+}
+
+#models {
+    display: flex;
+    align-items: right;
+    align-content: right;
+    text-align: left;
+    justify-content: space-evenly;
+    grid-template-columns: 3;
+    column-count: 3;
+    column-gap: 2%;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: 10px solid #2a475e;
+    background-color: #171a21;
+    color: #c7d5e0;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+#entry-features, #mid-range-features, #elite-features {
+    list-style-type: disc;
+}
+
+#entry-features li, #mid-range-features li, #elite-features li {
+    padding-bottom: 4%;
+}
+
+#entry h3, #mid-range h3, #elite h3 {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 4%;
+}
+
+#games {
+    align-items: center;
+    justify-content: center space-around;
+    text-align: center;
+    grid-template-columns: 3;
+    grid-template-rows: auto 2;
+    column-count: 3;
+    column-gap: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: auto;
+    height: auto;
+    margin: auto;
+    z-index: 1;
+}
+
+#elden-ring h3, 
+#god-of-war h3, 
+#death-stranding h3, 
+#marvels-spiderman h3, 
+#uncharted h3, 
+#witcher-3 h3 {
+    height: auto;
+    width: auto;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin: auto;
+    color:#c7d5e0
+}
+
+#elden-ring-game, 
+#god-of-war-game, 
+#death-stranding-game, 
+#marvels-spiderman-game, 
+#uncharted-game, 
+#witcher-3-game {
+    margin: auto;
+    width: auto;
+    height: auto;
+
+}
+
+#game-spacing {
+    padding: 2%;
+    z-index: 1;
+}
+
+#game-bg {
+    background-color:#171a21;
+    z-index: -1;
+    border-radius: 20px;
+    width: 75%;
+    border: 10px solid #2a475e;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    padding: 2%;
+}
+
+#proton h2 a:link,
+#proton h2 a:visited,
+#proton h2 a:hover,
+#proton h2 a:active {
+     color: #c7d5e0;
+}
+
+#model-title-div, #game-title-div {
+    background-color: #171a21;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    border: 6px solid #66c0f4;
+    background-color: #171a21;
+    border-radius: 20px;
+}
+
+
+#page-title {
+    background-color: #171a21;
+    border-radius: 20px;
+    border: 6px solid #66c0f4;
+    width: 40%;
+    margin: auto;
+    color: #66c0f4;
+    text-align: center;
+    height: auto;
+    color: #c7d5e0;
+    padding: 1%;
+}
+
+footer {
+    background-color: #171a21;
+    border-top: 5px solid #66c0f4;
+    color: #c7d5e0;
+}
+
+@media only screen and (max-width: 1280px) {
+
+    #games {
+    align-items: center;
+    justify-content: center space-around;
+    text-align: center;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    column-count: 1;
+    column-gap: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: auto;
+    height: auto;
+    margin: auto;
+    z-index: 1;
+}
+}
